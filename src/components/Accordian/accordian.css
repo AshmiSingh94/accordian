@@ -1,0 +1,49 @@
+.wrapper{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    padding: 10px;
+    margin: 10px 30px 10px 10px;
+    background-color: #614161;
+    color:#fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.accordian{
+    width: 500px;
+}
+/* .item{
+    background: #614161;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+} */
+ .multiSelection{
+    background: #614161;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.singleSelection{
+    background-color:#cd8d95;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.title{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer
+}
+.content{
+color: #ffffff;
+height: auto;
+} 
